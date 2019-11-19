@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AssessmentAllSuite" duration-ms="54145" started-at="2019-11-13T18:41:00 IST" finished-at="2019-11-13T18:41:55 IST">
+    <groups>
+    </groups>
+    <test name="heatClinicTest" duration-ms="25489" started-at="2019-11-13T18:41:00 IST" finished-at="2019-11-13T18:41:26 IST">
+      <class name="com.tutoralninja.testscenario.HeatClinicWebsiteScenario">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.tutoralninja.testscenario.HeatClinicWebsiteScenario@29b5cd00]" name="setBrowser" is-config="true" duration-ms="11856" started-at="2019-11-13T18:41:00 IST" finished-at="2019-11-13T18:41:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="setURL()[pri:1, instance:com.tutoralninja.testscenario.HeatClinicWebsiteScenario@29b5cd00]" name="setURL" duration-ms="1633" started-at="2019-11-13T18:41:12 IST" finished-at="2019-11-13T18:41:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="menuValidation()[pri:2, instance:com.tutoralninja.testscenario.HeatClinicWebsiteScenario@29b5cd00]" name="menuValidation" duration-ms="11872" started-at="2019-11-13T18:41:14 IST" finished-at="2019-11-13T18:41:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuValidation -->
+      </class> <!-- com.tutoralninja.testscenario.HeatClinicWebsiteScenario -->
+    </test> <!-- heatClinicTest -->
+    <test name="NinjaTest" duration-ms="28596" started-at="2019-11-13T18:41:26 IST" finished-at="2019-11-13T18:41:55 IST">
+      <class name="com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@e720b71]" name="setBrowser" is-config="true" duration-ms="9735" started-at="2019-11-13T18:41:26 IST" finished-at="2019-11-13T18:41:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="setURL()[pri:1, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@e720b71]" name="setURL" duration-ms="3244" started-at="2019-11-13T18:41:36 IST" finished-at="2019-11-13T18:41:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="scenario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@e720b71]" name="scenario" duration-ms="8106" started-at="2019-11-13T18:41:39 IST" data-provider="productDetails" finished-at="2019-11-13T18:41:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$123.20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ex Tax: $101.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Availability: In Stock]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name or number in your address book, a favorites list, or a call log. It also automatically syncs all your contacts from a PC, Mac, or Internet service. And it lets you select and listen to voicemail messages in whatever order you want just like email.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@e720b71]" name="scenario" duration-ms="4392" started-at="2019-11-13T18:41:47 IST" data-provider="productDetails" finished-at="2019-11-13T18:41:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macBook Air]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$1,202.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ex Tax: $1,000.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Availability: In Stock]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose inches and pounds overnight. It’s the result of rethinking conventions. Of multiple wireless innovations. And of breakthrough design. With MacBook Air, mobile computing suddenly has a new standard.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="validateItemsInCart()[pri:3, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@e720b71]" name="validateItemsInCart" duration-ms="3037" started-at="2019-11-13T18:41:51 IST" finished-at="2019-11-13T18:41:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsInCart -->
+      </class> <!-- com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio -->
+    </test> <!-- NinjaTest -->
+  </suite> <!-- AssessmentAllSuite -->
+</testng-results>

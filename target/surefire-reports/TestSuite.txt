@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.495 s <<< FAILURE! - in TestSuite
+validateItemsInCart(com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio)  Time elapsed: 5.07 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element not clickable at point (1229,20). Other element would receive the click: <ul class="list-inline"></ul>
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-002', ip: '55.55.52.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42424/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c7cd369b-737f-4511-be6d-f707842ef3db
+	at com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio.validateItemsInCart(TutorialNinjaProductValidationScenaio.java:64)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TutorialNinjaSuite">
+  <test thread-count="5" name="NinjaTest"> 
+   <parameter name="browserType" value="ie" />  
+    <classes>
+      <class name="com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio"/>
+    </classes>
+  </test> <!-- Test2 -->
+  
+</suite> <!-- Suite1 -->

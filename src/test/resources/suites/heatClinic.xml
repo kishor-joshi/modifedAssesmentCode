@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="heatClinicSuite">
+  <test thread-count="5" name="heatClinicTest"> 
+   <parameter name="browserType" value="ie" />  
+    <classes>
+      <class name="com.tutoralninja.testscenario.HeatClinicWebsiteScenario"/>
+    </classes>
+  </test> <!-- Test2 -->
+  
+</suite> <!-- Suite1 -->

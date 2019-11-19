@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AssessmentAllSuite" duration-ms="49012" started-at="2019-11-12T20:53:09 IST" finished-at="2019-11-12T20:53:58 IST">
+    <groups>
+    </groups>
+    <test name="heatClinicTest" duration-ms="26987" started-at="2019-11-12T20:53:09 IST" finished-at="2019-11-12T20:53:36 IST">
+      <class name="com.tutoralninja.testscenario.HeatClinicWebsiteScenario">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.tutoralninja.testscenario.HeatClinicWebsiteScenario@49fc609f]" name="setBrowser" is-config="true" duration-ms="4054" started-at="2019-11-12T20:53:09 IST" finished-at="2019-11-12T20:53:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="setURL()[pri:1, instance:com.tutoralninja.testscenario.HeatClinicWebsiteScenario@49fc609f]" name="setURL" duration-ms="1848" started-at="2019-11-12T20:53:13 IST" finished-at="2019-11-12T20:53:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="menuValidation()[pri:2, instance:com.tutoralninja.testscenario.HeatClinicWebsiteScenario@49fc609f]" name="menuValidation" duration-ms="20969" started-at="2019-11-12T20:53:15 IST" finished-at="2019-11-12T20:53:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuValidation -->
+      </class> <!-- com.tutoralninja.testscenario.HeatClinicWebsiteScenario -->
+    </test> <!-- heatClinicTest -->
+    <test name="NinjaTest" duration-ms="21974" started-at="2019-11-12T20:53:36 IST" finished-at="2019-11-12T20:53:58 IST">
+      <class name="com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@71bbf57e]" name="setBrowser" is-config="true" duration-ms="1830" started-at="2019-11-12T20:53:36 IST" finished-at="2019-11-12T20:53:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="setURL()[pri:1, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@71bbf57e]" name="setURL" duration-ms="1485" started-at="2019-11-12T20:53:38 IST" finished-at="2019-11-12T20:53:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="scenario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@71bbf57e]" name="scenario" duration-ms="6977" started-at="2019-11-12T20:53:40 IST" data-provider="productDetails" finished-at="2019-11-12T20:53:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$123.20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ex Tax: $101.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Availability: In Stock]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name or number in your address book, a favorites list, or a call log. It also automatically syncs all your contacts from a PC, Mac, or Internet service. And it lets you select and listen to voicemail messages in whatever order you want just like email.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@71bbf57e]" name="scenario" duration-ms="6539" started-at="2019-11-12T20:53:47 IST" data-provider="productDetails" finished-at="2019-11-12T20:53:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macBook Air]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$1,202.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ex Tax: $1,000.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Availability: In Stock]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose inches and pounds overnight. It’s the result of rethinking conventions. Of multiple wireless innovations. And of breakthrough design. With MacBook Air, mobile computing suddenly has a new standard.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="FAIL" signature="validateItemsInCart()[pri:3, instance:com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio@71bbf57e]" name="validateItemsInCart" duration-ms="5051" started-at="2019-11-12T20:53:53 IST" finished-at="2019-11-12T20:53:58 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element not clickable at point (1229,20). Other element would receive the click: <ul class="list-inline"></ul>
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-002', ip: '55.55.52.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42424/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c7cd369b-737f-4511-be6d-f707842ef3db]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element not clickable at point (1229,20). Other element would receive the click: <ul class="list-inline"></ul>
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-002', ip: '55.55.52.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:42424/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c7cd369b-737f-4511-be6d-f707842ef3db
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.tutoralninja.testscript.TutorialNinjaTestScript.ValidateCartAfterRemovingItem(TutorialNinjaTestScript.java:112)
+at com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio.validateItemsInCart(TutorialNinjaProductValidationScenaio.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsInCart -->
+      </class> <!-- com.tutoralninja.testscenario.TutorialNinjaProductValidationScenaio -->
+    </test> <!-- NinjaTest -->
+  </suite> <!-- AssessmentAllSuite -->
+  <suite name="AssessmentSuites" duration-ms="0" started-at="2019-11-12T20:53:58 IST" finished-at="2019-11-12T20:53:58 IST">
+    <groups>
+    </groups>
+  </suite> <!-- AssessmentSuites -->
+</testng-results>
